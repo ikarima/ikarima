@@ -1,16 +1,34 @@
-### Hi there 👋
+/*NIM   : 13020210283
+Nama    : Ikarima
+Hari/Tgl: Minggu, 10 Maret 2023
+Waktu   : 03:08 PM*/
+package tugas1;
 
-<!--
-**ikarima/ikarima** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import java.util.Scanner;
 
-Here are some ideas to get you started:
+public class ConvertSecondsToTime {
+    public static void main(String[] args) {
+        // Meminta input total detik dari pengguna
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan total detik: ");
+        int totalDetik = input.nextInt();
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        // Menghitung detik saat ini
+        int detikSekarang = totalDetik % 60;
+
+        // Menghitung total menit
+        int totalMenit = totalDetik / 60;
+
+        // Menghitung menit saat ini
+        int menitSekarang = totalMenit % 60;
+
+        // Menghitung total jam
+        int totalJam = totalMenit / 60;
+
+        // Menghitung jam saat ini
+        int jamSekarang = totalJam % 24;
+
+        // Menampilkan waktu dalam format jam:menit:detik
+        System.out.println("Waktu saat ini adalah " + jamSekarang + ":" + menitSekarang + ":" + detikSekarang);
+    }
+}
