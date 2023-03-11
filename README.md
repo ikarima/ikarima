@@ -1,6 +1,6 @@
 /*NIM   : 13020210283
 Nama    : Ikarima
-Hari/Tgl: Minggu, 10 Maret 2023
+Hari/Tgl: jumat, 10 Maret 2023
 Waktu   : 03:08 PM*/
 package tugas1;
 
