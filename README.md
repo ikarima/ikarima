@@ -2,7 +2,6 @@
 Nama    : Ikarima
 Hari/Tgl: jumat, 10 Maret 2023
 Waktu   : 03:08 PM*/
-package tugas1;
 
 import java.util.Scanner;
 
